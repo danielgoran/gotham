@@ -71,8 +71,24 @@ body {
 /* ===== Header =====*/
 /* ==================== */
 
-
-
+.page-header {
+	height: 67px;
+	width: 100%;
+	background-color: #f7c61d;
+}
+.wrapper {
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+.page-header .wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.page-header nav ul {
+	display: flex;
+}
 
 
 
