@@ -92,7 +92,8 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
-.page-header nav ul {
+
+nav ul {
 	display: flex;
 	justify-content: space-between;
 }
@@ -104,6 +105,30 @@ body {
 	text-transform: uppercase;
 	padding: 0 35px;
 }
+
+/* ==================== */
+/* ===== Footer =====*/
+/* ==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
