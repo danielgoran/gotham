@@ -142,12 +142,14 @@ img {
 
 article {
 	display: flex;
+	margin-bottom: 50px;
 }
 
 h2 {
 	font-family: Proxima;
 	font-weight: bold;
 	font-size: 24px;
+	margin: 40px 0 15px;
 }
 
 article h3 {
@@ -160,10 +162,16 @@ article h3 {
 	width: 30%;
 }
 
+.article-left img {
+	border-radius: 3px;
+}
+
 .article-right {
 	width: 70%;
 	display: flex;
 	flex-direction: column;
+	padding-left: 25px;
+	justify-content: space-between;
 }
 
 .meta {
@@ -171,6 +179,76 @@ article h3 {
 	font-weight: 300;
 	color: #999;
 	font-size: 13px;
+}
+
+.meta span::after{
+	display: inline-block;
+	content: "|";
+	color: #999;
+	font-size: 13px;
+	margin: 0 5px;
+}
+
+.meta span:last-child::after {
+	display: none;
+}
+
+.category {
+	color: #e3b002;
+}
+
+.description {
+	color: #555;
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.description::after {
+	content: ">";
+	color: #e3b002;
+}
+.views::after {
+	content: "|";
+	margin: 0 10px;
+}
+
+.comments {
+	color: #e3b002;
+}
+
+.additional {
+	color: #999;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+.views::before, .comments::before {
+	content: '\f06e';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+.comments::before {
+	content: '\f075';
+	color: #999;
+}
+
+.more {
+	width: 170px;
+	height: 42px;
+	background: transparent;
+	color: #000;
+	font-size: 12px;
+	font-family: Roboto;
+	text-transform: uppercase;
+	border: 1px solid #e3b002;
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
 }
 
 /* ==================== */
